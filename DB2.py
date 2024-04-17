@@ -36,10 +36,10 @@ def select(table):
         print(i)
 
 
-# for i in students:
-#     insert(i)
+for i in students:
+    insert(i)
 
-insert({"name": "Bahar", "code": "40215", "job": "Civil Engineer"})
+# insert({"name": "Bahar", "code": "40215", "job": "Civil Engineer"})
 
 select("employees")
 
